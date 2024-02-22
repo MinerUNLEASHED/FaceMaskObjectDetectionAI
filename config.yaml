@@ -1,0 +1,9 @@
+path: full/path/to/data/folder  # dataset root dir - make sure to provide full path!
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+
+# Classes
+names:
+  0: with_mask
+  1: without_mask
+  2: mask_weared_incorrectly
